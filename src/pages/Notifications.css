@@ -1,0 +1,43 @@
+.notifications-page{
+  display:flex;
+  min-height:100vh;
+  background:#f1f5f9;
+}
+
+.notifications-container{
+  flex:1;
+  padding:30px;
+}
+
+.notifications-title{
+  margin-bottom:20px;
+  color:#2563eb;
+}
+
+.notification-card{
+  background:white;
+  border-radius:12px;
+  padding:18px;
+  margin-bottom:15px;
+
+  box-shadow:
+  0 4px 15px rgba(0,0,0,0.08);
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.notification-message{
+  font-weight:500;
+}
+
+.notification-time{
+  color:gray;
+  font-size:14px;
+}
+
+.notification-card:hover{
+  transform:translateY(-2px);
+  transition:0.3s;
+}

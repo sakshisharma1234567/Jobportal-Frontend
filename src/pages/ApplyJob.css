@@ -1,0 +1,53 @@
+.apply-container{
+  flex:1;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:30px;
+  min-height:100vh;
+  background:#f1f5f9;
+}
+
+.apply-card{
+  width:100%;
+  max-width:700px;
+  background:white;
+  padding:30px;
+  border-radius:15px;
+  box-shadow:
+  0 4px 15px rgba(0,0,0,0.08);
+}
+
+.apply-card h2{
+  text-align:center;
+  margin-bottom:20px;
+  color:#2563eb;
+}
+
+.apply-card form{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.apply-card input,
+.apply-card textarea{
+  padding:12px;
+  border:1px solid #cbd5e1;
+  border-radius:10px;
+  font-size:15px;
+}
+
+.apply-card button{
+  background:#2563eb;
+  color:white;
+  border:none;
+  padding:12px;
+  border-radius:10px;
+  cursor:pointer;
+  font-size:16px;
+}
+
+.apply-card button:hover{
+  background:#1d4ed8;
+}

@@ -1,0 +1,16 @@
+.dashboard-layout{
+  display:flex;
+}
+
+.dashboard-content{
+  flex:1;
+  padding:30px;
+}
+
+@media(max-width:768px){
+
+  .dashboard-layout{
+    flex-direction:column;
+  }
+
+}
