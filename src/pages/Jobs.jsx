@@ -7,7 +7,7 @@ import SearchBar from "../components/SearchBar";
 import Filters from "../components/Filters";
 import JobCard from "../components/JobCard";
 
-import "./Jobs.css";
+import "./jobs.css";
 
 function Jobs() {
   const [jobs, setJobs] = useState([]);
