@@ -47,14 +47,13 @@ function Applications() {
                 Status: <strong>{app.status}</strong>
               </p>
 
-              <Link
-                to="/resume-viewer"
-                state={{
-                  resume: app.resume,
-                }}
-              >
-                View Resume
-              </Link>
+            <a
+  href={app.resume}
+  target="_blank"
+  rel="noreferrer"
+>
+  View Resume
+</a>
             </div>
           ))
         ) : (
